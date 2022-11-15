@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!--
+  
+-->
+<html>
+  <head>
+    <title>Clínica del Dogtors</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c0b023b63e.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body class="is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+        <header id="header">
+          <h1><a href="index.html">Dogtors</h1>
+          <nav id="nav">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li>
+                <a href="#" class="icon solid fa-angle-down">Menu</a>
+                <ul>
+                  <li><a href="nosotros.html">Nosotros</a></li>
+                  <li><a href="contact.html">Contacto</a></li>
+                  <li>
+                    <a href="carrusel.html">Servicios</a>
+  
+    </li></ul></li>
+    </ul>
+    </nav>
+    </header>         
+
+      <!-- Main -->
+        <section id="main" class="container">
+          
+           <h4>Servicios Medicos</h4>
+En Clínica del Dogtors ofrecemos servicios médicos de excelencia. Contamos con el personal idóneo y las herramientas
+Consultas:
+<ul>
+  <li>Consulta general</li>
+  <li>Consulta especializada</li>
+ </ul>
+
+<ul><h4>Medicina preventiva</h4>
+ <li>Protocolo de vacunación</li>
+  <li>Cirugía</li>
+<li>Cirugia tejido blando</li>
+<li>Cirugías osteoarticulares y de columna.</li>
+</ul>
+
+<ul><h4>Servicios Estéticos</h4>
+
+<p>En Clínica del Dogtors trabajamos en la prestación de servicios estéticos para mascotas. La calidad de nuestra labor profesional se encuentra avalada por la recomendación de nuestros clientes.
+<li>Baños estéticos y medicados</li>
+<li>Baños estéticos</li>
+<li>Baños medicados</li>
+<li>Peluquería</li>
+<li>Corte comercial</li>
+<li>Rasurado Natural o mixto</li>
+<li>Estilismos en razas</li>
+</ul>
+
+
+<ul><h4>Otros servicios</ul></h4>
+En Clínica del Dogtors ofrecemos productos farmacéuticos y artículos para mascotas. Somos una empresa sólida que cuenta con profesionales con una profunda sensibilidad hacia los animales.
+<li>Pharmacy & pet shop</li>
+<li>Alimentos</li>
+<li>Pet shop</li>
+<li>Farmacia</li>
+<li>Artículos</li>
+<li>Control parasitario</li>
+<li>Nutrición</li>
+<li>Control de la natalidad</li>
+<li>Pensiones</li>
+        </section>
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+      <link rel="stylesheet" href="style.css" />
+</style>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="img/1_.png" style="width:100%" alt="texto que aparece en caso de que la imagen no apresca" title="Control Medicos en un can adulto">
+  <div class="text">Clínica del Dogtors</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="img/22.png" style="width:100%" alt="texto que aparece en caso de que la imagen no apresca" title="Canalización y control de un cachorro">
+  <div class="text">Clínica del Dogtors</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="img/33.png" style="width:100%" alt="texto que aparece en caso de que la imagen no apresca" title="Paciente pato">
+  <div class="text">Clínica del Dogtors</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="img/mi.png" style="width:100%" alt="texto que aparece en caso de que la imagen no apresca" title="Canalización en un gato macho adulto">
+  <div class="text">Clínica del Dogtors</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="img/per.png" style="width:100%" alt="texto que aparece en caso de que la imagen no apresca" title="Reformación de pico en un loro mediano">
+  <div class="text">Clínica del Dogtors</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<footer id="footer">
+<ul class="icons">
+<li><a href="https://www.facebook.com/search/top?q=veterinario%20dog-tors" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+
+<li><a href="https://www.instagram.com/dogtor_bird/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li></ul>
+    
+    <ul class="copyright">
+    <li>&copy; Derechos reservados del autor/DOGTORS.</li><li>Diseño:<a href="https://about.me/leikun">Elizabeth Lezama</a></li></ul>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.dropotron.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
+
+</body>
+</html> 
+
